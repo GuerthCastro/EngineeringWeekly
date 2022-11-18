@@ -1,4 +1,4 @@
-# Engineering Weekly unit test and integration tests demo
+# Engineering Weekly unit test demo
 
 ### .NET Core SDK
 [![Join the chat at https://gitter.im/dotnet/cli](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dotnet/cli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
