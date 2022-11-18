@@ -80,7 +80,7 @@ namespace EngineeringWeekly.Tests.Controller
         }
 
         [Fact]
-        public async Task ChuckNorrisJokeGetterController_GetJoke_Return501()
+        public async Task ChuckNorrisJokeGetterController_GetJoke_Return500()
         {
             //Arrange
             var errorMessage = "Chuk Norris API Fail";
@@ -100,7 +100,7 @@ namespace EngineeringWeekly.Tests.Controller
             result.Should().BeOfType<ObjectResult>();
             objectResult.Value.Should().BeOfType<string>();
             objectResult.Value.Should().Be(errorMessage);
-            objectResult.StatusCode.Should().Be(501);
+            objectResult.StatusCode.Should().Be(500);
         }
 
         [Fact]
@@ -128,7 +128,7 @@ namespace EngineeringWeekly.Tests.Controller
         }
 
         [Fact]
-        public async Task ChuckNorrisJokeGetterController_GetJokeCategories_Return501()
+        public async Task ChuckNorrisJokeGetterController_GetJokeCategories_Return500()
         {
             //Arrange
             var errorMessage = "Chuk Norris API Fail";
@@ -147,7 +147,7 @@ namespace EngineeringWeekly.Tests.Controller
             result.Should().BeOfType<ObjectResult>();
             objectResult.Value.Should().BeOfType<string>();
             objectResult.Value.Should().Be(errorMessage);
-            objectResult.StatusCode.Should().Be(501);
+            objectResult.StatusCode.Should().Be(500);
         }
     }
 }
