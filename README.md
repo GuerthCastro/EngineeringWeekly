@@ -51,3 +51,9 @@ The main solution name is **EngineeringWeekly** that inside contains 5 other pro
 | EngineeringWeekly.Tests |Here are where you can find the test cases for each individual class and code logic paths|
 |EngineeringWeekly.IntegrationTests | This is the for testing the integration with another classes, external libraries or external API's |
 
+### Some refrences pages
+  * [What Is Unit Testing?](https://www.spiceworks.com/tech/devops/articles/what-is-unit-testing/)
+  * [Unit Testing Tutorial](https://www.guru99.com/unit-testing-guide.html)
+  * [What is Test Driven Development (TDD)?](https://www.guru99.com/test-driven-development.html)
+  * [C# Unit Testing](https://www.youtube.com/watch?v=GSTVFx0KOzI)
+  
